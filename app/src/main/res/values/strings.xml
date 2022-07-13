@@ -5,4 +5,5 @@
     <string name="weight">Peso (kg)</string>
     <string name="height">Altura (cm)</string>
     <string name="calc">Calcular</string>
+    <string name="fields_message">Os campos devem ser preenchidos e diferente de zero</string>
 </resources>
