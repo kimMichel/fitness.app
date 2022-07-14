@@ -1,10 +1,12 @@
 package co.tiagoaguiar.fitnesstracker
 
+import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -50,6 +52,12 @@ class ImcActivity : AppCompatActivity() {
                 }
                 .create()
                 .show()
+
+            // Qualquer serviço que são recursos do sistema como: camera, teclado, sensor biometrico
+            // os services utilizamos para manipular os recursos e serviços do sistema android
+            val service = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            //comando para esconder o teclado assim que executar a ação
+            service.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
         }
     }
 
