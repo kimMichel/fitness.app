@@ -6,4 +6,14 @@
     <string name="height">Altura (cm)</string>
     <string name="calc">Calcular</string>
     <string name="fields_message">Os campos devem ser preenchidos e diferente de zero</string>
+
+    <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="imc_so_high_weight">Moderadamente obeso</string>
+    <string name="imc_severely_high_weight">Severamente obeso</string>
+    <string name="imc_extreme_weight">Extremamente obeso</string>
+    <string name="imc_response">IMC é: %1$.2f</string>
 </resources>
