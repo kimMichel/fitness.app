@@ -19,4 +19,6 @@
     <string name="imc_response">IMC é: %1$.2f</string>
     <string name="save">Salvar</string>
     <string name="saved">Registro salvo com sucesso!</string>
+    <string name="imc_res">Response</string>
+    <string name="list_response">resultado: %1.2f, data: %2$s</string>
 </resources>
