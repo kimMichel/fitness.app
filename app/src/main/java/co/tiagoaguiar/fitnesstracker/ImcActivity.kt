@@ -50,8 +50,6 @@ class ImcActivity : AppCompatActivity() {
                 .setMessage(imcResponse(result))
                 .setPositiveButton(android.R.string.ok) { dialog, which ->
                     // aqui vai rodar depois do click
-                    val i = Intent(this, MainActivity::class.java)
-                    startActivity(i)
                 }
                 .setNegativeButton(R.string.save) { dialog, which ->
                     Thread {
