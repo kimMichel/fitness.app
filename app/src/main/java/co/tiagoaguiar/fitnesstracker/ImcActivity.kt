@@ -84,6 +84,7 @@ class ImcActivity : AppCompatActivity() {
     // Serve para escutar os eventos de click dentro dos itens do menu
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.menu_search){
+            finish()
             openListActivity()
         }
         return super.onOptionsItemSelected(item)
