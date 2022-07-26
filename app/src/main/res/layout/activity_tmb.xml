@@ -8,25 +8,43 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="vertical"
         tools:context=".ImcActivity">
 
         <TextView
             style="@style/TextViewForm"
             android:layout_gravity="center"
-            android:text="@string/imc_desc" />
+            android:text="@string/tmb_desc" />
 
         <EditText
-            android:id="@+id/edit_imc_weight"
+            android:id="@+id/edit_tmb_weight"
             style="@style/EditViewForm"
             android:hint="@string/weight" />
 
         <EditText
-            android:id="@+id/edit_imc_height"
+            android:id="@+id/edit_tmb_height"
             style="@style/EditViewForm"
             android:hint="@string/height" />
+
+        <EditText
+            android:id="@+id/edit_tmb_age"
+            style="@style/EditViewForm"
+            android:hint="@string/age" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AutoTextViewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_lifestyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button
